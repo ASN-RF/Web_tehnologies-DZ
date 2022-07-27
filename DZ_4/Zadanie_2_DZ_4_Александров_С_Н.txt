@@ -7,12 +7,12 @@ CREATE TABLE Groupmates (
 );
 
 -- insert
-INSERT INTO Groupmates VALUES (00001, 'Иван',     21, 'Москва');
-INSERT INTO Groupmates VALUES (00002, 'Пётр',     20, 'Санк-Петербург');
-INSERT INTO Groupmates VALUES (00003, 'Влад',     19, 'Москва');
-INSERT INTO Groupmates VALUES (00004, 'Николай',  22, 'Москва');
-INSERT INTO Groupmates VALUES (00005, 'Ника',     23, 'Никарагуа');
-INSERT INTO Groupmates VALUES (00006, 'Вика',     17, 'Москва');
+INSERT INTO Groupmates VALUES (00001, 'Ivan',     21, 'Moscow');
+INSERT INTO Groupmates VALUES (00002, 'Petr',     20, 'Saint Petersburg');
+INSERT INTO Groupmates VALUES (00003, 'Vlad',     19, 'Moscow');
+INSERT INTO Groupmates VALUES (00004, 'Nikolai',  22, 'Moscow');
+INSERT INTO Groupmates VALUES (00005, 'Nika',     23, 'Nicaragua');
+INSERT INTO Groupmates VALUES (00006, 'Vika',     17, 'Moscow');
 
 -- fetch 
-SELECT * FROM Groupmates WHERE address = 'Москва' AND age > 18
+SELECT * FROM Groupmates WHERE address = 'Moscow' AND age > 18
